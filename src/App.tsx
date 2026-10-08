@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Bot, Cpu, Zap, Search, BarChart3, Database } from 'lucide-react';
+import { ArrowRight, Bot, Cpu, Zap, Search, BarChart3, Database, PenTool } from 'lucide-react';
 
 function App() {
   return (
@@ -23,18 +23,18 @@ function App() {
       <main className="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-sm font-medium mb-8 border border-indigo-500/20">
           <Zap className="w-4 h-4" />
-          <span>Powered by Claude 3.5 Sonnet</span>
+          <span>Powered by Claude 3.5 Sonnet & Claude 3 Opus</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-tight">
-          Automate your competitive <br />
+          Automate your market intelligence <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
-            intelligence research.
+            and strategic ideation.
           </span>
         </h1>
         
         <p className="text-xl text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Vryks AI Research is an intelligent engine that continuously monitors markets, analyzes competitors, and generates strategic briefs in seconds.
+          Vryks AI Research is an intelligent engine that continuously monitors markets, analyzes competitors, and generates strategic briefs and content in seconds.
         </p>
 
         <div className="flex items-center justify-center gap-4">
@@ -91,17 +91,17 @@ function App() {
       <section id="features" className="border-t border-zinc-900 bg-zinc-950 py-24">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Intelligence at scale</h2>
-            <p className="text-zinc-400">Our engine uses state-of-the-art LLMs to synthesize unstructured market data.</p>
+            <h2 className="text-3xl font-bold mb-4">Intelligence & Ideation at scale</h2>
+            <p className="text-zinc-400">Our engine uses state-of-the-art LLMs to synthesize unstructured market data and generate high-quality strategic content.</p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="p-6 rounded-2xl border border-zinc-800/50 bg-zinc-900/20">
               <div className="w-12 h-12 rounded-lg bg-indigo-500/10 flex items-center justify-center mb-6 text-indigo-400">
                 <Search className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Deep Data Mining</h3>
-              <p className="text-zinc-400 leading-relaxed">
+              <p className="text-zinc-400 leading-relaxed text-sm">
                 Connects to web endpoints, PDF reports, and news feeds to extract real-time strategic information automatically.
               </p>
             </div>
@@ -110,9 +110,19 @@ function App() {
               <div className="w-12 h-12 rounded-lg bg-cyan-500/10 flex items-center justify-center mb-6 text-cyan-400">
                 <Cpu className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">LLM Synthesis</h3>
-              <p className="text-zinc-400 leading-relaxed">
-                Leverages Anthropic's Claude to summarize thousands of pages of text into concise, actionable strategic insights.
+              <h3 className="text-xl font-semibold mb-3">Sonnet Synthesis</h3>
+              <p className="text-zinc-400 leading-relaxed text-sm">
+                Leverages Claude 3.5 Sonnet to rapidly summarize thousands of pages of text into concise, actionable strategic insights.
+              </p>
+            </div>
+
+            <div className="p-6 rounded-2xl border border-zinc-800/50 bg-zinc-900/20">
+              <div className="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center mb-6 text-purple-400">
+                <PenTool className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Opus Ideation</h3>
+              <p className="text-zinc-400 leading-relaxed text-sm">
+                Utilizes Claude 3 Opus for deep strategic reasoning, producing comprehensive content architectures, campaigns, and high-fidelity copy based on research data.
               </p>
             </div>
             
@@ -121,7 +131,7 @@ function App() {
                 <BarChart3 className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Structured Outputs</h3>
-              <p className="text-zinc-400 leading-relaxed">
+              <p className="text-zinc-400 leading-relaxed text-sm">
                 Exports data into JSON, CSV, or direct API webhooks to pipe competitor intel directly into your CRM or internal tools.
               </p>
             </div>
