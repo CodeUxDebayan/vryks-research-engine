@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowRight, Bot, Cpu, Zap, Search, BarChart3, Database, PenTool } from 'lucide-react';
+import { ArrowRight, Bot, Cpu, Zap, Search, BarChart3, PenTool } from 'lucide-react';
 
 function App() {
   return (
