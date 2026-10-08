@@ -23,7 +23,7 @@ function App() {
       <main className="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-sm font-medium mb-8 border border-indigo-500/20">
           <Zap className="w-4 h-4" />
-          <span>Powered by Claude 3.5 Sonnet & Claude 3 Opus</span>
+          <span>Powered by Claude 5.5 Sonnet & Claude 5.5 Opus</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-tight">
@@ -112,7 +112,7 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Sonnet Synthesis</h3>
               <p className="text-zinc-400 leading-relaxed text-sm">
-                Leverages Claude 3.5 Sonnet to rapidly summarize thousands of pages of text into concise, actionable strategic insights.
+                Leverages Claude 5.5 Sonnet to rapidly summarize thousands of pages of text into concise, actionable strategic insights.
               </p>
             </div>
 
@@ -122,7 +122,7 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Opus Ideation</h3>
               <p className="text-zinc-400 leading-relaxed text-sm">
-                Utilizes Claude 3 Opus for deep strategic reasoning, producing comprehensive content architectures, campaigns, and high-fidelity copy based on research data.
+                Utilizes Claude 5.5 Opus for deep strategic reasoning, producing comprehensive content architectures, campaigns, and high-fidelity copy based on research data.
               </p>
             </div>
             
