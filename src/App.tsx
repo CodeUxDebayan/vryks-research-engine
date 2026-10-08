@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  ArrowRight, Bot, Cpu, Zap, Search, BarChart3, PenTool,
+  ArrowRight, Cpu, Zap, Search, BarChart3, PenTool,
   X, Mail, User, Building2, MessageSquare, FileText, Shield,
   Workflow, ChevronRight, Sparkles
 } from 'lucide-react';
@@ -35,9 +35,6 @@ function App() {
       <nav className="sticky top-0 z-40 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/50">
         <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Bot className="w-5 h-5 text-white" />
-            </div>
             <span className="font-bold text-lg tracking-tight">Vryks AI Research</span>
             <span className="ml-2 text-[10px] font-semibold tracking-widest uppercase px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">Beta</span>
           </div>
@@ -240,9 +237,6 @@ function App() {
           <div className="grid md:grid-cols-4 gap-10 mb-10">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-                  <Bot className="w-5 h-5 text-white" />
-                </div>
                 <span className="font-bold text-lg">Vryks AI Research</span>
               </div>
               <p className="text-sm text-zinc-500 leading-relaxed max-w-sm">
